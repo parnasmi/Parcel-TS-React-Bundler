@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
+import "./styles/style.scss";
 
 const App = () => {
-  const theme = useState("darkblue");
   return <h1>My Simple React Bundler by Parcel</h1>;
 };
 
